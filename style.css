@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+     font-family: 'Playfair Display', serif;
+
+}
+h3 {
+    font-weight: inherit;
+    width: 600px;
+    height: 40px;
+}
+
+h4 {
+    width: 500px;
+    height: 40px;
+   
+}
+
+img {
+    width: 250px;
+    height: 100px;
+    transition: transform .2s;
+}
+
+.side{
+    margin-bottom: 20px;
+}
+img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 80px 0px;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.container .search {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.container .search h1 {
+    letter-spacing: 3px;
+    display: inline-block;
+    border-bottom: 2px solid green;
+    padding-bottom: 10px;
+}
+
+.container .search input {
+    width: 60%;
+    padding: 5px 16px;
+    background: transparent;
+    border: 1px solid #000;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    outline: none;
+}
+
+.container .search input::placeholder {
+    color: green;
+    font-weight: 500;
+}
+
+.container .product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.container .product-list .product {
+    margin-top: 30px;
+}
+
+.container .product-list .product h3 {
+    padding-top: 5px;
+    letter-spacing: 2px;
+    color: #48a809;
+    font-weight: 600;
+}
+
+.container .product-list .product h4 {
+    padding: 3px 0px;
+    color: #48a809;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
